@@ -1,16 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
+
+/**
+ * programs prints from 1-100
+ */
 
 int main()
 {
-	for(int b = 0; b <= 10; b++)
+	int k;
+
+	for(int k = 1; k <= 100; k++)
 	{
-		printf("%d\n", b);
+		printf("%d\n", k);
 	}
 
-	for(int j = 0; j < 20; j++)
-	{
-		printf("Tech is fun");
-	}
-
-	return(0);
+	return (0);
 }
+
+
