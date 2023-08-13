@@ -21,4 +21,6 @@ int main()
     return(0);
     
     //note - ptr is for memory address while *ptr is for the value
+    //ptr and &age both refers to the memory address
+    //age and *ptr both refers to value
 }
